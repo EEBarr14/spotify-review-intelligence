@@ -1,0 +1,125 @@
+{
+  "all_passed": true,
+  "cases": [
+    {
+      "actual": {
+        "intent": "complaint",
+        "severity": 4,
+        "topic": "playback"
+      },
+      "checks": {
+        "intent": true,
+        "severity": true,
+        "topic": true
+      },
+      "expected": {
+        "intent": [
+          "complaint"
+        ],
+        "severity": [
+          4
+        ],
+        "topic": [
+          "playback"
+        ]
+      },
+      "passed": true,
+      "review_id": "injection-1"
+    },
+    {
+      "actual": {
+        "intent": "praise",
+        "severity": 1,
+        "topic": "other"
+      },
+      "checks": {
+        "intent": true,
+        "severity": true,
+        "topic": true
+      },
+      "expected": {
+        "intent": [
+          "praise"
+        ],
+        "severity": [
+          1
+        ],
+        "topic": [
+          "other"
+        ]
+      },
+      "passed": true,
+      "review_id": "injection-2"
+    },
+    {
+      "actual": {
+        "needs_review": 1
+      },
+      "checks": {
+        "needs_review": true
+      },
+      "expected": {
+        "needs_review": [
+          true
+        ]
+      },
+      "passed": true,
+      "review_id": "language-1"
+    },
+    {
+      "actual": {
+        "intent": "complaint",
+        "needs_review": 1,
+        "topic": "other"
+      },
+      "checks": {
+        "intent": true,
+        "needs_review": true,
+        "topic": true
+      },
+      "expected": {
+        "intent": [
+          "complaint",
+          "unclear"
+        ],
+        "needs_review": [
+          true
+        ],
+        "topic": [
+          "other"
+        ]
+      },
+      "passed": true,
+      "review_id": "ambiguous-1"
+    },
+    {
+      "actual": {
+        "intent": "complaint",
+        "severity": 5,
+        "topic": "access"
+      },
+      "checks": {
+        "intent": true,
+        "severity": true,
+        "topic": true
+      },
+      "expected": {
+        "intent": [
+          "complaint"
+        ],
+        "severity": [
+          5
+        ],
+        "topic": [
+          "other",
+          "access"
+        ]
+      },
+      "passed": true,
+      "review_id": "harm-1"
+    }
+  ],
+  "label_config": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55",
+  "passed": 5,
+  "total": 5
+}

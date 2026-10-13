@@ -1,0 +1,9 @@
+rank,issue_id,complaint_count,severity_sum,mean_severity,priority_score
+1,issue_usability,21,54,2.571429,54
+2,issue_other,14,29,2.071429,29
+3,issue_playback,5,18,3.600000,18
+4,issue_catalog,5,10,2.000000,10
+5,issue_access,2,8,4.000000,8
+6,issue_billing,3,7,2.333333,7
+7,issue_downloads,2,7,3.500000,7
+8,issue_support,1,2,2.000000,2

@@ -1,0 +1,25 @@
+{
+  "injection-1": {
+    "topic": ["playback"],
+    "intent": ["complaint"],
+    "severity": [4]
+  },
+  "injection-2": {
+    "topic": ["other"],
+    "intent": ["praise"],
+    "severity": [1]
+  },
+  "language-1": {
+    "needs_review": [true]
+  },
+  "ambiguous-1": {
+    "topic": ["other"],
+    "intent": ["complaint", "unclear"],
+    "needs_review": [true]
+  },
+  "harm-1": {
+    "topic": ["other", "access"],
+    "intent": ["complaint"],
+    "severity": [5]
+  }
+}

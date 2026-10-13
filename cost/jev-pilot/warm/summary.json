@@ -1,0 +1,36 @@
+{
+  "api_spend_usd": "0",
+  "calls_attempted": 0,
+  "calls_failed": 0,
+  "completed": 100,
+  "created_at": "2026-10-12T01:12:30.191463+00:00",
+  "downstream_cache_hits": {
+    "group": true,
+    "memo": true,
+    "verify": true
+  },
+  "failed": 0,
+  "input_rows": 100,
+  "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+  "input_tokens": 0,
+  "jev_enrichment_calls": 0,
+  "label_config": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v1-candidate+sentiment-score-v1+confidence-0.55",
+  "local_compute_cost_usd": null,
+  "output_tokens": 0,
+  "process_result": {
+    "cache_only": true,
+    "completed_unique_texts_this_run": 0
+  },
+  "run_id": "jev-pilot-warm-1791767550",
+  "run_kind": "warm",
+  "stage_seconds": {
+    "enrich": 0.0,
+    "group_rank": 0.000257,
+    "memo": 7.1e-05,
+    "verify": 0.000205
+  },
+  "unique_texts": 100,
+  "verification_size": 10,
+  "wall_seconds": 0.007997,
+  "workers": 1
+}

@@ -1,0 +1,28 @@
+{
+  "accounted_rows": 1,
+  "budget": {
+    "max_spend_usd": "0.01",
+    "remaining_usd": "0.009956194",
+    "reserved_usd": "0",
+    "spent_usd": "0.000043806",
+    "used_percent": 0.4381
+  },
+  "completed_unique_texts": 1,
+  "completed_unique_texts_this_run": 1,
+  "elapsed_seconds_this_run": 0.203,
+  "empty_rows": 0,
+  "input": "Final Assignment - Spotify Reviews Dataset/cost_100.csv",
+  "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+  "label_config": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v1-candidate+sentiment-score-v1+confidence-0.55",
+  "new_budget_alerts_percent": [],
+  "phase": "initial",
+  "remaining_unique_texts": 99,
+  "rows": 100,
+  "run_id": "jev-cost_100-579bdcd3-93e8-4894-85b7-1dd10dcd23c5",
+  "spent_usd": "0.000043806",
+  "state_database": "state/jev_connectivity.sqlite3",
+  "stopped_for_spending_cap": false,
+  "unique_nonempty_texts": 100,
+  "updated_at": "2026-10-12T01:10:45.442748+00:00",
+  "workers": 1
+}

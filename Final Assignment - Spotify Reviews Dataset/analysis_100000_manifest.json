@@ -1,0 +1,65 @@
+{
+  "nesting_checks": {
+    "analysis_10000_rows": 10000,
+    "analysis_10000_rows_in_sample": 10000,
+    "golden_rows": 50,
+    "golden_rows_in_sample": 50
+  },
+  "sample": {
+    "eligibility": "Unique nonempty review_id with review_rating in 1..5; duplicate review text remains eligible and keeps its original ID.",
+    "exact_duplicate_text_rows": 21901,
+    "first_timestamp": "2022-05-17 00:16:43",
+    "last_timestamp": "2023-11-15 23:05:35",
+    "method": "Select the lowest SHA-256(seed + ':' + review_id) ranks across all eligible source rows.",
+    "order": "Ascending sampling rank, then review_id.",
+    "path": "analysis_100000.csv",
+    "reviews_by_month": {
+      "2022-05": 2379,
+      "2022-06": 4605,
+      "2022-07": 4914,
+      "2022-08": 4715,
+      "2022-09": 4063,
+      "2022-10": 4117,
+      "2022-11": 4071,
+      "2022-12": 4811,
+      "2023-01": 4320,
+      "2023-02": 3130,
+      "2023-03": 4143,
+      "2023-04": 3833,
+      "2023-05": 4259,
+      "2023-06": 4067,
+      "2023-07": 12849,
+      "2023-08": 4769,
+      "2023-09": 6380,
+      "2023-10": 13396,
+      "2023-11": 5179
+    },
+    "reviews_by_rating": {
+      "1": 36543,
+      "2": 4638,
+      "3": 5092,
+      "4": 8016,
+      "5": 45711
+    },
+    "rows": 100000,
+    "seed": "berkeley-fall-2026-assignment-5-v1",
+    "sha256": "cf2641e8f3075e392a4c693c7cd45484c68e907569c48718cf131f0e321d643c",
+    "unique_review_texts": 78099
+  },
+  "scope_accounting": {
+    "empty_reviews_to_quarantine_from_full_source": 13,
+    "full_source_rows_profiled": 660622,
+    "nonempty_reviews_to_classify": 100000,
+    "quarantine_path": "empty_review_text_quarantine.jsonl"
+  },
+  "source": {
+    "duplicate_review_ids": 0,
+    "eligible_nonempty_rows": 660609,
+    "empty_review_text_rows": 13,
+    "invalid_rating_rows": 0,
+    "path": "spotify_reviews_18months.csv",
+    "rows": 660622,
+    "sha256": "1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6"
+  },
+  "version": "representative-100k-v1"
+}

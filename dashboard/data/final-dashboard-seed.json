@@ -1,0 +1,798 @@
+{
+  "runs": [
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "sourceRows": 660622,
+      "sampledNonempty": 100000,
+      "completed": 100000,
+      "quarantined": 13,
+      "uniqueTexts": 78099,
+      "cacheReuseRows": 21901,
+      "provider": "TypeSafe Jev",
+      "model": "jev-1.13.0",
+      "costUsd": 3.737583948,
+      "elapsedSeconds": 3708.0,
+      "generatedAt": "2026-10-12T03:13:12.446231+00:00"
+    }
+  ],
+  "topic_metrics": [
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "topic": "access",
+      "reviewCount": 1631,
+      "complaintCount": 1521,
+      "meanSeverity": 3.7167381974248928,
+      "meanSentiment": -0.610567136725935
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "topic": "usability",
+      "reviewCount": 18013,
+      "complaintCount": 14510,
+      "meanSeverity": 2.25820240937101,
+      "meanSentiment": -0.41633903292066843
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "topic": "playback",
+      "reviewCount": 6589,
+      "complaintCount": 6030,
+      "meanSeverity": 3.147822127788739,
+      "meanSentiment": -0.5428805585066019
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "topic": "downloads",
+      "reviewCount": 1523,
+      "complaintCount": 984,
+      "meanSeverity": 2.4504267892317793,
+      "meanSentiment": -0.1960866710439921
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "topic": "catalog",
+      "reviewCount": 3645,
+      "complaintCount": 2307,
+      "meanSeverity": 2.0436213991769545,
+      "meanSentiment": -0.14912208504801097
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "topic": "billing",
+      "reviewCount": 6113,
+      "complaintCount": 5146,
+      "meanSeverity": 2.2452151153279893,
+      "meanSentiment": -0.5551275969245869
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "topic": "support",
+      "reviewCount": 172,
+      "complaintCount": 110,
+      "meanSeverity": 1.8895348837209303,
+      "meanSentiment": -0.2618604651162791
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "topic": "other",
+      "reviewCount": 62314,
+      "complaintCount": 14009,
+      "meanSeverity": 1.2084282825689252,
+      "meanSentiment": 0.2984726546201496
+    }
+  ],
+  "intent_metrics": [
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "intent": "cancellation",
+      "reviewCount": 3771
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "intent": "complaint",
+      "reviewCount": 40846
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "intent": "request",
+      "reviewCount": 2157
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "intent": "praise",
+      "reviewCount": 44636
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "intent": "unclear",
+      "reviewCount": 8590
+    }
+  ],
+  "monthly_trends": [
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2022-05",
+      "reviewCount": 2379,
+      "complaintCount": 736,
+      "complaintShare": 0.3093736864228668,
+      "meanSeverity": 1.566204287515763,
+      "meanSentiment": 0.2764249684741488,
+      "partialMonth": true
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2022-06",
+      "reviewCount": 4605,
+      "complaintCount": 1343,
+      "complaintShare": 0.2916395222584148,
+      "meanSeverity": 1.5237785016286645,
+      "meanSentiment": 0.3019761129207383,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2022-07",
+      "reviewCount": 4914,
+      "complaintCount": 1769,
+      "complaintShare": 0.35999185999186,
+      "meanSeverity": 1.6935286935286935,
+      "meanSentiment": 0.20488400488400488,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2022-08",
+      "reviewCount": 4715,
+      "complaintCount": 1372,
+      "complaintShare": 0.2909862142099682,
+      "meanSeverity": 1.504559915164369,
+      "meanSentiment": 0.30569777306468715,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2022-09",
+      "reviewCount": 4063,
+      "complaintCount": 1125,
+      "complaintShare": 0.27688899827713515,
+      "meanSeverity": 1.4824021658872755,
+      "meanSentiment": 0.32553039625892194,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2022-10",
+      "reviewCount": 4117,
+      "complaintCount": 1127,
+      "complaintShare": 0.2737430167597765,
+      "meanSeverity": 1.4666018945834345,
+      "meanSentiment": 0.3359047850376488,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2022-11",
+      "reviewCount": 4071,
+      "complaintCount": 1202,
+      "complaintShare": 0.295259150085974,
+      "meanSeverity": 1.5101940555146156,
+      "meanSentiment": 0.30327437975927285,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2022-12",
+      "reviewCount": 4811,
+      "complaintCount": 1733,
+      "complaintShare": 0.3602161712741634,
+      "meanSeverity": 1.6268966950737893,
+      "meanSentiment": 0.20341405113282063,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2023-01",
+      "reviewCount": 4320,
+      "complaintCount": 1310,
+      "complaintShare": 0.30324074074074076,
+      "meanSeverity": 1.5534722222222221,
+      "meanSentiment": 0.29269791666666667,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2023-02",
+      "reviewCount": 3130,
+      "complaintCount": 897,
+      "complaintShare": 0.2865814696485623,
+      "meanSeverity": 1.4798722044728434,
+      "meanSentiment": 0.31996805111821086,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2023-03",
+      "reviewCount": 4143,
+      "complaintCount": 1437,
+      "complaintShare": 0.34685010861694426,
+      "meanSeverity": 1.5578083514361574,
+      "meanSentiment": 0.22069514844315713,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2023-04",
+      "reviewCount": 3833,
+      "complaintCount": 1286,
+      "complaintShare": 0.3355074354291678,
+      "meanSeverity": 1.5564831724497783,
+      "meanSentiment": 0.2443829898252022,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2023-05",
+      "reviewCount": 4259,
+      "complaintCount": 1416,
+      "complaintShare": 0.33247241136417,
+      "meanSeverity": 1.5660953275416765,
+      "meanSentiment": 0.2367222352664945,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2023-06",
+      "reviewCount": 4067,
+      "complaintCount": 1485,
+      "complaintShare": 0.36513400540939267,
+      "meanSeverity": 1.6437177280550774,
+      "meanSentiment": 0.19966805999508236,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2023-07",
+      "reviewCount": 12849,
+      "complaintCount": 7721,
+      "complaintShare": 0.6009027939917503,
+      "meanSeverity": 1.6622305237761694,
+      "meanSentiment": -0.40458245777881546,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2023-08",
+      "reviewCount": 4769,
+      "complaintCount": 1884,
+      "complaintShare": 0.3950513734535542,
+      "meanSeverity": 1.6531767666177395,
+      "meanSentiment": 0.12270706647095826,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2023-09",
+      "reviewCount": 6380,
+      "complaintCount": 3379,
+      "complaintShare": 0.5296238244514107,
+      "meanSeverity": 1.8492163009404388,
+      "meanSentiment": -0.09526332288401254,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2023-10",
+      "reviewCount": 13396,
+      "complaintCount": 9855,
+      "complaintShare": 0.7356673633920573,
+      "meanSeverity": 2.056061510898776,
+      "meanSentiment": -0.44843162137951625,
+      "partialMonth": false
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "month": "2023-11",
+      "reviewCount": 5179,
+      "complaintCount": 3540,
+      "complaintShare": 0.6835296389264337,
+      "meanSeverity": 1.953465920061788,
+      "meanSentiment": -0.36267233056574627,
+      "partialMonth": true
+    }
+  ],
+  "issue_rankings": [
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "rank": 1,
+      "issueId": "issue_usability",
+      "complaintCount": 14510,
+      "severitySum": 36500,
+      "meanSeverity": 2.515507,
+      "priorityScore": 36500
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "rank": 2,
+      "issueId": "issue_other",
+      "complaintCount": 14009,
+      "severitySum": 26834,
+      "meanSeverity": 1.915483,
+      "priorityScore": 26834
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "rank": 3,
+      "issueId": "issue_playback",
+      "complaintCount": 6030,
+      "severitySum": 20030,
+      "meanSeverity": 3.321725,
+      "priorityScore": 20030
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "rank": 4,
+      "issueId": "issue_billing",
+      "complaintCount": 5146,
+      "severitySum": 12686,
+      "meanSeverity": 2.465216,
+      "priorityScore": 12686
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "rank": 5,
+      "issueId": "issue_catalog",
+      "complaintCount": 2307,
+      "severitySum": 5979,
+      "meanSeverity": 2.591678,
+      "priorityScore": 5979
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "rank": 6,
+      "issueId": "issue_access",
+      "complaintCount": 1521,
+      "severitySum": 5870,
+      "meanSeverity": 3.859303,
+      "priorityScore": 5870
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "rank": 7,
+      "issueId": "issue_downloads",
+      "complaintCount": 984,
+      "severitySum": 3144,
+      "meanSeverity": 3.195122,
+      "priorityScore": 3144
+    },
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "rank": 8,
+      "issueId": "issue_support",
+      "complaintCount": 110,
+      "severitySum": 258,
+      "meanSeverity": 2.345455,
+      "priorityScore": 258
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendationId": "spotify-100k-513df30afc58-recommendation",
+      "runId": "spotify-100k-513df30afc58",
+      "title": "The Business Question Comes First: Focus on Usability",
+      "summary": "Prioritize next-quarter discovery efforts to fix navigation, controls, and playlist management issues.",
+      "primaryIssueId": "issue_usability",
+      "alternatives": "[\"issue_access\"]",
+      "limitations": "Self-selected historical reviews may not represent current user behavior. Classification uncertainty exists in the held-out sample. No causal or revenue/customer-outcome data is available.",
+      "model": "qwen3.5:4b-q4_K_M (local Ollama)",
+      "createdAt": "2026-10-12T03:13:12.446231+00:00"
+    }
+  ],
+  "recommendation_claims": [
+    {
+      "recommendationId": "spotify-100k-513df30afc58-recommendation",
+      "claimId": "claim_1_complaint_count",
+      "issueId": "issue_usability",
+      "metric": "complaint_count",
+      "value": "14510",
+      "evidenceReviewIds": "[\"1b72a43a-0608-4b73-991a-b9fbe84a5ebc\", \"1e4d3214-63de-4ba0-9870-a4ee8aa32942\", \"21f4f8cd-5846-44aa-9283-cfb3dc51e257\"]"
+    },
+    {
+      "recommendationId": "spotify-100k-513df30afc58-recommendation",
+      "claimId": "claim_1_severity_sum",
+      "issueId": "issue_usability",
+      "metric": "severity_sum",
+      "value": "36500",
+      "evidenceReviewIds": "[\"1b72a43a-0608-4b73-991a-b9fbe84a5ebc\", \"1e4d3214-63de-4ba0-9870-a4ee8aa32942\", \"21f4f8cd-5846-44aa-9283-cfb3dc51e257\"]"
+    },
+    {
+      "recommendationId": "spotify-100k-513df30afc58-recommendation",
+      "claimId": "claim_1_mean_severity",
+      "issueId": "issue_usability",
+      "metric": "mean_severity",
+      "value": "2.515507",
+      "evidenceReviewIds": "[\"1b72a43a-0608-4b73-991a-b9fbe84a5ebc\", \"1e4d3214-63de-4ba0-9870-a4ee8aa32942\", \"21f4f8cd-5846-44aa-9283-cfb3dc51e257\"]"
+    },
+    {
+      "recommendationId": "spotify-100k-513df30afc58-recommendation",
+      "claimId": "claim_1_priority_score",
+      "issueId": "issue_usability",
+      "metric": "priority_score",
+      "value": "36500",
+      "evidenceReviewIds": "[\"1b72a43a-0608-4b73-991a-b9fbe84a5ebc\", \"1e4d3214-63de-4ba0-9870-a4ee8aa32942\", \"21f4f8cd-5846-44aa-9283-cfb3dc51e257\"]"
+    }
+  ],
+  "evaluation_summary": [
+    {
+      "runId": "spotify-100k-513df30afc58",
+      "goldenSize": 50,
+      "topicAccuracy": 0.88,
+      "intentAccuracy": 0.92,
+      "severityExactAccuracy": 0.86,
+      "severityMae": 0.16,
+      "sentimentMae": 0.2218,
+      "ambiguousCases": 28
+    }
+  ],
+  "review_results": [
+    {
+      "reviewId": "1f42b7ef-0116-41df-9096-72fe215ffe2c",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "3e7bd493f58acce9e2e38a9eac684645485ff20682ec28602c3a9a7258a9a7f6",
+      "topic": "access",
+      "intent": "complaint",
+      "sentiment": -0.91,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2023-04-22 11:53:31",
+      "evidenceQuote": "I had a nice portfolio, got a massage to change password, lost everthing. Very upset!, at this time would not recommend",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "55123d02-711d-4e41-b644-06e2c3c4db18",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "58e82b11197f3f6f45030b1d1a67c6f898ba4dacf15c069d05b90ae15c7ff226",
+      "topic": "access",
+      "intent": "complaint",
+      "sentiment": -0.99,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 2,
+      "reviewTimestamp": "2023-07-27 07:27:57",
+      "evidenceQuote": "Whenever I close the app it always logs me out and it did it this time and I had 1300 liked songs and lost all of them",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "7be21f7d-5c21-4c90-b5ae-19d4b9ebaf5d",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "51d57d775400cb4a6c0fc75e6c12d205afdb19cebd1747a6679514127e8d3159",
+      "topic": "access",
+      "intent": "complaint",
+      "sentiment": -1.0,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2023-03-29 15:05:58",
+      "evidenceQuote": "Every time I'm playing music someone else is connecting to my device I DON'T KNOW WHO!! and listening to the music of his choice!!!! I am changing the device to mine and again it is automatically getting connected to the same device and also he or she have the control over my Spotify account!!!!!! VERY DISTURBING 😖😖",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "2488b7a5-69c7-4b9f-b7cd-674b7fe46fca",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "911fdf1d814ec1432123a9b7a39746f71572b37790db651feb9fe324baffda34",
+      "topic": "usability",
+      "intent": "complaint",
+      "sentiment": -0.975,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2022-09-17 16:59:01",
+      "evidenceQuote": "Your ruined it i lost all my playlist",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "922ea808-1eb3-4031-aa8c-ed35570b5652",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "de532ea16a185a8c310c04f80f395d6bbaeb50381391bb2986ada20062344b1b",
+      "topic": "usability",
+      "intent": "complaint",
+      "sentiment": -0.84,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2022-06-10 23:15:43",
+      "evidenceQuote": "Qrit working lost all my song list",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "e6b6cbef-e961-47f3-8a05-ff74e752f2ad",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "9ba2969b2e09375d32ba81f032ff2a339cdf7c16f3501f4f614bfb9a19253808",
+      "topic": "usability",
+      "intent": "complaint",
+      "sentiment": -0.995,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2023-09-30 15:39:29",
+      "evidenceQuote": "One day I logged out of my Spotify account in which I had 3 playlists but when after some time I logged back in all three were nowhere to be found I lost all 3 did everything to restore but couldn't get it . It's already been a month now and this is worst",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "b4c709f4-f53c-44d9-9138-698978a78b9f",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "4843ee76834c6044ffe07a1848a714e71ba761f763d088053dff867f998d8427",
+      "topic": "playback",
+      "intent": "complaint",
+      "sentiment": -0.95,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2023-01-01 14:09:43",
+      "evidenceQuote": "Slow and sluggish also deleted all my liked songs",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "000657d3-b7fb-48c3-9134-b48dcba3c5a9",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "7641fc45eea28f5628f2ca3a26fdc080443366385d933d0bd82ee4a55bc83bd0",
+      "topic": "playback",
+      "intent": "complaint",
+      "sentiment": -0.72,
+      "severity": 4,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2023-01-26 19:57:51",
+      "evidenceQuote": "Just updated the app now it will not connect. Says there is no internet connection. When every other app and browser has connection.",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "004d1c8a-a8c8-4746-b975-cd2f31c2a730",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "7664426b6a897550b88d249b912d867fa57bab7eff2d15b08e486f84ddb9c027",
+      "topic": "playback",
+      "intent": "complaint",
+      "sentiment": -0.985,
+      "severity": 4,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2023-01-26 19:00:22",
+      "evidenceQuote": "Until a few days ago the app was great but now it's not even playing songs. It just keeps loading even when there's active internet and all other apps are able to work..songs just don't play. I've restarting my phone updated the app done literally everything the songs just don't play. Horrible experience.",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "1680f8a3-a352-4f2f-9058-b9ac4213199e",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "62d56647b116873c361f3f63b471ddcce84fedd8ec9e889ad6f89d0034b847fd",
+      "topic": "downloads",
+      "intent": "complaint",
+      "sentiment": -0.98,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2022-08-02 20:32:36",
+      "evidenceQuote": "The app on my phone has deleted all my songs",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "3671dfd4-783c-460e-9a42-63b7cd01a524",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "b56c3093215928a8534aa915c1e1b3e02af57ac7b8ee4a4b939a52f29799b7b2",
+      "topic": "downloads",
+      "intent": "complaint",
+      "sentiment": -0.635,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 3,
+      "reviewTimestamp": "2023-09-06 05:12:49",
+      "evidenceQuote": "Everything was fine until I arrived on the app and found out that all my downloads have been deleted and I had to start again from scratch, y'all need to fix that.",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "3c2c9060-bfa1-4183-89c4-bae876d9ec26",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "ca2b7647208b3b37e9d93c9a6c76c8abd2088a13a8f61c0bda093659f8069c7f",
+      "topic": "downloads",
+      "intent": "complaint",
+      "sentiment": -0.87,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 5,
+      "reviewTimestamp": "2023-03-12 21:45:08",
+      "evidenceQuote": "All my downloaded songs got deleted",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "088909d0-cf9b-42b5-9259-e03b6d1cfa47",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "76e792d5489157c1b6de503bb5dbfaa5da3ad09134b707758f95f44e6da68844",
+      "topic": "catalog",
+      "intent": "complaint",
+      "sentiment": -0.96,
+      "severity": 4,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2023-10-28 01:18:35",
+      "evidenceQuote": "Bro what are you doing bro? 💀 Simply just taking away basic music rights from humans? Literally now I can't even search and play music! Legit bring back those features for free. I ain't buying subscription I don't hav money 💀",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "0d8acede-4557-4a45-84a4-a1bff9a5338b",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "90c140cfad747cb53434e4e6f12dc37919f75743a94d04c5a83514c7f4071199",
+      "topic": "catalog",
+      "intent": "complaint",
+      "sentiment": -0.945,
+      "severity": 4,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2023-01-28 10:57:18",
+      "evidenceQuote": "With wifi searching songs are not coming. Worst app",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "1181e6d3-9c8e-434b-ab73-d5c5e92a29f7",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "821a40845195b5c9603deef333d2ea047186fff290ad89bb573e55d3b3943d7e",
+      "topic": "catalog",
+      "intent": "complaint",
+      "sentiment": -0.655,
+      "severity": 4,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2023-11-09 13:31:52",
+      "evidenceQuote": "I'm getting some issues... I counted search any song the page is not working.. I've given update and also reinstalled the app but still the app is not working.. pls fix it as soon as possible..",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "07ea7568-4015-47d2-8b44-87ea58e42fd8",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "eaa063c73102cd6a02294485eddc13c318bf97a14778aea938b7359d0cf5d32f",
+      "topic": "billing",
+      "intent": "complaint",
+      "sentiment": -0.935,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2022-08-06 08:59:45",
+      "evidenceQuote": "I Payed For Premium but it did not reflect, i contacted spotify but I didn't get any help and my money wasn't refunded but the transaction was successfull",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "26957ff9-827a-45e9-8026-05093e81c502",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "0578410e06dec8fefbda4844f43182857ca67aeb215c6af04451516cea0de3af",
+      "topic": "billing",
+      "intent": "complaint",
+      "sentiment": -0.97,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2022-08-13 09:23:04",
+      "evidenceQuote": "I have been charged 329 rupees for premium but didn't get premium membership..... It's been worst that i lost my money",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "2dc9db93-8cb2-458f-8a05-f56adde6eb00",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "6ab128a11a063e7cab5200e6e11b3f6f20a0f711b3cdee0d62fb1864d3f79d28",
+      "topic": "billing",
+      "intent": "complaint",
+      "sentiment": -0.78,
+      "severity": 5,
+      "needsReview": false,
+      "reviewRating": 2,
+      "reviewTimestamp": "2023-06-26 08:44:05",
+      "evidenceQuote": "I would give 5* but I have had the same problem before and it keeps reacuring and its not the first time either. People be careful when paying because I forgot and managed to pay it and it got rid of my subscription I actually paid for more than once",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "47d27687-25ed-4030-84cb-fe376eddce66",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "36b0eba5a042ce30c2364a6ebe4a6f7a51903fb5ed87405e8d0dbc067118ab9a",
+      "topic": "support",
+      "intent": "complaint",
+      "sentiment": -0.675,
+      "severity": 3,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2022-05-23 21:00:42",
+      "evidenceQuote": "I sent in a help request months ago to figure out why my genre scroll isn't working, no contact or answer so far",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "4899f446-ff58-4a40-901a-0bbf39990f55",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "56e08b41427449d812712cc49a48b5c366ae5b0921b43a41077ed4b8fdf2d34e",
+      "topic": "support",
+      "intent": "complaint",
+      "sentiment": -0.555,
+      "severity": 3,
+      "needsReview": false,
+      "reviewRating": 2,
+      "reviewTimestamp": "2023-06-23 17:53:37",
+      "evidenceQuote": "The app is ok, majorly popular tracks are missing. Worst of all is the complete lack of anything resembling customer support.",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "8465b51f-50d5-4ea2-8d5f-98a03107a803",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "8e23c28b81c8390bf70cc5dba7619a6473aa3ce87977b2e0961d773596dbcd97",
+      "topic": "support",
+      "intent": "complaint",
+      "sentiment": -0.735,
+      "severity": 3,
+      "needsReview": false,
+      "reviewRating": 3,
+      "reviewTimestamp": "2022-07-13 18:52:32",
+      "evidenceQuote": "Mediocre at best most of the time. Nearly impossible to get help you need. Constant glitches. Have to figure it out yourself.",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "1e5d4cbf-b02a-4dae-954c-01d87b287eda",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "b8a6dab82cd10491bc13987b3ae51a4565a6d92f68f4a85ce7c2cb69bf779f24",
+      "topic": "other",
+      "intent": "complaint",
+      "sentiment": -0.59,
+      "severity": 4,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2022-08-20 16:13:48",
+      "evidenceQuote": "it isn't working since yesterday 🤨 I've tried everything to no avail",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "287b526a-a596-4ee0-a1b8-cc01dd53d2ac",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "b802c52f4a5214139f99c83bb5ad7d447e9358b9215d6d1c60bc9f508fd3399e",
+      "topic": "other",
+      "intent": "complaint",
+      "sentiment": -0.655,
+      "severity": 4,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2022-10-07 15:38:31",
+      "evidenceQuote": "Does not work anymore",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    },
+    {
+      "reviewId": "49ee5f6a-2b48-4821-a918-cff41820372b",
+      "runId": "spotify-100k-513df30afc58",
+      "sourceSha256": "e334817bec85ccc3abe6ec2fac3f7f6ee574a429af7b0d5dfbc9e42bf9b91f93",
+      "topic": "other",
+      "intent": "complaint",
+      "sentiment": -0.965,
+      "severity": 4,
+      "needsReview": false,
+      "reviewRating": 1,
+      "reviewTimestamp": "2023-11-13 16:40:53",
+      "evidenceQuote": "Doesn't work at all",
+      "cacheSourceId": null,
+      "labelConfig": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55"
+    }
+  ]
+}

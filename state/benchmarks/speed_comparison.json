@@ -1,0 +1,48 @@
+{
+  "evaluated_on": "2026-10-06",
+  "development_input": "Final Assignment - Spotify Reviews Dataset/cost_100.csv",
+  "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+  "label_config": "ollama:qwen3.5:4b-q4_K_M@d8b0f5e9760c+enrich-v6-numeric-contract-rules+common-labels-v1+think-false",
+  "production_reference": {
+    "batch_size": 10,
+    "workers": 1,
+    "sustained_unique_texts_per_second": 0.679451,
+    "remaining_full_corpus_unique_texts": 475697,
+    "projected_remaining_hours": 194.48
+  },
+  "benchmarks": [
+    {
+      "name": "batch20_w1",
+      "batch_size": 20,
+      "workers": 1,
+      "rows": 100,
+      "seconds": 162.567,
+      "unique_texts_per_second": 0.615131,
+      "projected_remaining_hours": 214.81,
+      "agreement_with_production": {
+        "topic": 0.95,
+        "intent": 0.93,
+        "severity_exact": 0.92,
+        "needs_review": 0.95,
+        "sentiment_mae": 0.2646
+      }
+    },
+    {
+      "name": "batch10_w2",
+      "batch_size": 10,
+      "workers": 2,
+      "rows": 100,
+      "seconds": 225.978,
+      "unique_texts_per_second": 0.442521,
+      "projected_remaining_hours": 298.60,
+      "agreement_with_production": {
+        "topic": 1.0,
+        "intent": 1.0,
+        "severity_exact": 0.99,
+        "needs_review": 1.0,
+        "sentiment_mae": 0.0542
+      }
+    }
+  ],
+  "decision": "Keep batch size 10 and one worker. Larger batches reduced label stability without improving sustained throughput, and two workers were slower on the shared local hardware."
+}

@@ -1,0 +1,18 @@
+{
+  "accounted_rows": 50,
+  "completed_unique_texts": 49,
+  "elapsed_seconds_this_run": 69.915,
+  "empty_rows": 0,
+  "estimated_remaining_hours": 0.0,
+  "input": "state/golden_50_eval_input.csv",
+  "input_sha256": "874ec372a1fc73255dd1566193aa9d3f604e4b4cc1818075fda12e87b3b31a05",
+  "label_config": "ollama:qwen3.5:4b-q4_K_M@d8b0f5e9760c+enrich-v6-numeric-contract-rules+common-labels-v1+think-false",
+  "new_batches_this_run": 5,
+  "observed_unique_texts_per_second": 0.629334,
+  "phase": "resume",
+  "remaining_unique_texts": 0,
+  "rows": 50,
+  "state_database": "state/pipeline.sqlite3",
+  "unique_nonempty_texts": 49,
+  "updated_at": "2026-10-06T17:25:04.260288+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "accounted_rows": 100,
+  "completed_unique_texts": 100,
+  "elapsed_seconds_this_run": 162.559,
+  "empty_rows": 0,
+  "estimated_remaining_hours": 0.0,
+  "input": "Final Assignment - Spotify Reviews Dataset/cost_100.csv",
+  "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+  "label_config": "ollama:qwen3.5:4b-q4_K_M@d8b0f5e9760c+enrich-v6-numeric-contract-rules+common-labels-v1+think-false",
+  "new_batches_this_run": 5,
+  "observed_unique_texts_per_second": 0.61516,
+  "phase": "initial",
+  "remaining_unique_texts": 0,
+  "rows": 100,
+  "state_database": "state/benchmarks/batch20_w1/pipeline.sqlite3",
+  "unique_nonempty_texts": 100,
+  "updated_at": "2026-10-06T17:30:39.219879+00:00"
+}

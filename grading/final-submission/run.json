@@ -1,0 +1,10 @@
+{
+  "allow_multi_issue": false,
+  "analysis_count": 100000,
+  "analysis_sha256": "cf2641e8f3075e392a4c693c7cd45484c68e907569c48718cf131f0e321d643c",
+  "classification_input_fields": [
+    "review_text"
+  ],
+  "label_config": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55",
+  "version": "a5-audit-v1"
+}

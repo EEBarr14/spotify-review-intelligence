@@ -1,0 +1,44 @@
+{
+  "issues": [
+    {
+      "description": "Users report inability to log in or access their accounts.",
+      "issue_id": "issue_access",
+      "name": "Authentication Failure"
+    },
+    {
+      "description": "Complaints about the app requiring premium subscriptions for basic features like music selection and playback.",
+      "issue_id": "issue_billing",
+      "name": "Unnecessary Premium Requirements"
+    },
+    {
+      "description": "Users express frustration with excessive personalized recommendations and missing specific songs in the catalog.",
+      "issue_id": "issue_catalog",
+      "name": "Recommendation Overload"
+    },
+    {
+      "description": "Reports of background download processes getting stuck or failing to complete.",
+      "issue_id": "issue_downloads",
+      "name": "Download Stalls"
+    },
+    {
+      "description": "Broad negative feedback including calls for uninstallation and low ratings.",
+      "issue_id": "issue_other",
+      "name": "General Dissatisfaction"
+    },
+    {
+      "description": "Problems with music playback, including connection failures on Wi-Fi, app crashes, and Google Assistant integration errors.",
+      "issue_id": "issue_playback",
+      "name": "Playback Connectivity Issues"
+    },
+    {
+      "description": "Users complain about rude or unhelpful support staff.",
+      "issue_id": "issue_support",
+      "name": "Poor Customer Support"
+    },
+    {
+      "description": "Criticism regarding the new homescreen design, inability to select specific songs without premium, and excessive song skipping limits.",
+      "issue_id": "issue_usability",
+      "name": "Interface and Feature Limitations"
+    }
+  ]
+}

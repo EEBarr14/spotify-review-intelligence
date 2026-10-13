@@ -1,0 +1,28 @@
+{
+  "accounted_rows": 50,
+  "budget": {
+    "max_spend_usd": "0.01",
+    "remaining_usd": "0.007827046",
+    "reserved_usd": "0",
+    "spent_usd": "0.002172954",
+    "used_percent": 21.7295
+  },
+  "completed_unique_texts": 49,
+  "completed_unique_texts_this_run": 49,
+  "elapsed_seconds_this_run": 7.901,
+  "empty_rows": 0,
+  "input": "state/golden_50_eval_input.csv",
+  "input_sha256": "874ec372a1fc73255dd1566193aa9d3f604e4b4cc1818075fda12e87b3b31a05",
+  "label_config": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v1-candidate+sentiment-score-v1+confidence-0.55",
+  "new_budget_alerts_percent": [],
+  "phase": "initial",
+  "remaining_unique_texts": 0,
+  "rows": 50,
+  "run_id": "jev-golden_50_eval_input-f84ec786-79b9-452c-ad54-f45ac0c87809",
+  "spent_usd": "0.002172954",
+  "state_database": "state/jev_pipeline.sqlite3",
+  "stopped_for_spending_cap": false,
+  "unique_nonempty_texts": 49,
+  "updated_at": "2026-10-12T01:15:23.620246+00:00",
+  "workers": 1
+}

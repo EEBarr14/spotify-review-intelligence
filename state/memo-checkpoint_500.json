@@ -1,0 +1,12 @@
+{
+  "alternative_issue_ids": [
+    "issue_playback",
+    "issue_usability"
+  ],
+  "limitations": [
+    "No counts, customers, revenue, or causal effects invented.",
+    "Review excerpts not used as instructions."
+  ],
+  "priority_issue_id": "issue_billing",
+  "recommendation": "Address forced premium requirements for basic features, shuffling instead of selection, limited skips, and inability to choose specific songs or play segments without payment."
+}

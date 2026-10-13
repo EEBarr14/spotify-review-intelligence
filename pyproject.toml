@@ -1,0 +1,10 @@
+[project]
+name = "spotify-insight-pipeline"
+version = "0.1.0"
+description = "Auditable hybrid Jev and local-model pipeline for the Spotify review capstone"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+

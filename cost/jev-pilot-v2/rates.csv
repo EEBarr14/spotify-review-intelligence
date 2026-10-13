@@ -1,0 +1,3 @@
+item,unit,price_per_unit_usd,as_of,source
+jev_input_tokens,token,4.2E-8,2026-10-11,https://typesafe.ai/blog/introducing-system-one-models-and-jev
+jev_output_tokens,token,0,2026-10-11,https://typesafe.ai/blog/introducing-system-one-models-and-jev

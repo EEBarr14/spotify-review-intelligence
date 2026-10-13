@@ -1,0 +1,5 @@
+stage,provider,model,requests,input_tokens,output_tokens,summed_call_seconds,api_cost_usd
+enrich,ollama-local,qwen3.5:2b@0689d44085e0,20,17869,5876,184.715521,0.000000
+group,ollama-local,qwen3.5:2b@0689d44085e0,1,1391,232,10.529423,0.000000
+memo,ollama-local,qwen3.5:2b@0689d44085e0,1,578,67,3.762064,0.000000
+verify,ollama-local,qwen3.5:2b@0689d44085e0,1,898,267,10.115242,0.000000

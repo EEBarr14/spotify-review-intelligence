@@ -1,0 +1,44 @@
+{
+  "issues": [
+    {
+      "description": "Users report inability to log in or enter passwords, often accompanied by excessive advertisements.",
+      "issue_id": "issue_access",
+      "name": "Authentication Failure"
+    },
+    {
+      "description": "Complaints about the app forcing premium subscriptions for basic features like music selection and playback control, with users comparing it unfavorably to competitors.",
+      "issue_id": "issue_billing",
+      "name": "Unnecessary Premium Requirements"
+    },
+    {
+      "description": "Users express frustration with excessive personalized recommendations that clutter their experience, preferring curated playlists or random selections instead.",
+      "issue_id": "issue_catalog",
+      "name": "Recommendation Overload"
+    },
+    {
+      "description": "Reports of background download processes getting stuck indefinitely and offline functionality failing to work properly.",
+      "issue_id": "issue_downloads",
+      "name": "Download Stalls and Offline Issues"
+    },
+    {
+      "description": "Broad negative sentiment including calls for uninstallation, zero-star ratings, and claims that the app has become useless following updates.",
+      "issue_id": "issue_other",
+      "name": "General App Disappointment"
+    },
+    {
+      "description": "Issues with audio quality, inability to connect via Wi-Fi (working only on mobile data), app crashes after updates, and Google Assistant integration failures.",
+      "issue_id": "issue_playback",
+      "name": "Playback Connectivity and Crashes"
+    },
+    {
+      "description": "Users describe support staff as rude and ineffective, using strong language to express dissatisfaction with the service.",
+      "issue_id": "issue_support",
+      "name": "Poor Customer Support Experience"
+    },
+    {
+      "description": "Criticism of the new homescreen design, inability to select specific songs without premium, limited skip functionality, and shuffling behavior that disrupts user control.",
+      "issue_id": "issue_usability",
+      "name": "Interface and Control Limitations"
+    }
+  ]
+}

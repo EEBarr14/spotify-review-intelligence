@@ -1,0 +1,58 @@
+{
+  "api_spend_usd": "0.004779054",
+  "calls_attempted": 103,
+  "calls_failed": 0,
+  "completed": 100,
+  "created_at": "2026-10-12T01:21:02.437693+00:00",
+  "downstream_cache_hits": {
+    "group": false,
+    "memo": false,
+    "verify": false
+  },
+  "failed": 0,
+  "input_rows": 100,
+  "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+  "input_tokens": 117314,
+  "jev_enrichment_calls": 100,
+  "label_config": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55",
+  "local_compute_cost_usd": null,
+  "output_tokens": 23997,
+  "process_result": {
+    "accounted_rows": 100,
+    "budget": {
+      "max_spend_usd": "0.10",
+      "remaining_usd": "0.095220946",
+      "reserved_usd": "0",
+      "spent_usd": "0.004779054",
+      "used_percent": 4.7791
+    },
+    "completed_unique_texts": 100,
+    "completed_unique_texts_this_run": 100,
+    "elapsed_seconds_this_run": 15.752,
+    "empty_rows": 0,
+    "input": "Final Assignment - Spotify Reviews Dataset/cost_100.csv",
+    "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+    "label_config": "typesafe:jev-latest@2026-09-10T18:38:01.391457+00:00+spotify-contract-jev-v2-candidate+sentiment-score-v1+confidence-0.55",
+    "phase": "initial",
+    "remaining_unique_texts": 0,
+    "rows": 100,
+    "run_id": "jev-cost_100-37c6e675-6306-497e-b6ae-a9311c8e01f4",
+    "spent_usd": "0.004779054",
+    "state_database": "cost/jev-pilot-v2/pilot-state.sqlite3",
+    "stopped_for_spending_cap": false,
+    "unique_nonempty_texts": 100,
+    "workers": 1
+  },
+  "run_id": "jev-pilot-cold-1791768008",
+  "run_kind": "cold",
+  "stage_seconds": {
+    "enrich": 15.899915,
+    "group_rank": 19.753533,
+    "memo": 7.780206,
+    "verify": 10.264769
+  },
+  "unique_texts": 100,
+  "verification_size": 10,
+  "wall_seconds": 53.713409,
+  "workers": 1
+}

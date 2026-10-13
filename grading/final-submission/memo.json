@@ -1,0 +1,12 @@
+{
+  "alternative_issue_ids": [
+    "issue_access"
+  ],
+  "limitations": [
+    "Self-selected historical reviews may not represent current user behavior.",
+    "Classification uncertainty exists in the held-out sample.",
+    "No causal or revenue/customer-outcome data is available."
+  ],
+  "priority_issue_id": "issue_usability",
+  "recommendation": "Prioritize next-quarter discovery efforts to fix navigation, controls, and playlist management issues."
+}

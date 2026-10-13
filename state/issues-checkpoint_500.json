@@ -1,0 +1,44 @@
+{
+  "issues": [
+    {
+      "description": "Users report inability to log in, password exceptions failing, and general account access issues.",
+      "issue_id": "issue_access",
+      "name": "Login and Authentication Failures"
+    },
+    {
+      "description": "Complaints regarding forced premium requirements for basic features, shuffling instead of selection, limited skips, and inability to choose specific songs or play segments without payment.",
+      "issue_id": "issue_billing",
+      "name": "Billing and Premium Feature Restrictions"
+    },
+    {
+      "description": "Users express frustration with unwanted music recommendations, lack of control over playlists, and missing favorite songs from the catalog.",
+      "issue_id": "issue_catalog",
+      "name": "Content Recommendations and Catalog Availability"
+    },
+    {
+      "description": "Reports of apps getting stuck during downloads, background processes failing, and downloaded content disappearing unexpectedly when offline.",
+      "issue_id": "issue_downloads",
+      "name": "Download Stability and Data Issues"
+    },
+    {
+      "description": "Broad negative sentiment including worst app ratings, desire for uninstallation, and comparisons to competitor apps like Wynk.",
+      "issue_id": "issue_other",
+      "name": "General App Dissatisfaction"
+    },
+    {
+      "description": "Users experience app crashes upon opening, inability to connect via Wi-Fi despite mobile data working, and removal of basic music player features in updates.",
+      "issue_id": "issue_playback",
+      "name": "Playback Connectivity and Crash Issues"
+    },
+    {
+      "description": "Strongly negative feedback regarding rude support staff, lack of helpfulness, and inability to resolve technical issues like missing tokens or unavailable canvases.",
+      "issue_id": "issue_support",
+      "name": "Customer Support Quality"
+    },
+    {
+      "description": "Criticism of new home screen layouts resembling social media feeds, removal of skip/rewind controls for non-subscribers, and excessive ad frequency interrupting listening flow.",
+      "issue_id": "issue_usability",
+      "name": "User Interface and Navigation Changes"
+    }
+  ]
+}

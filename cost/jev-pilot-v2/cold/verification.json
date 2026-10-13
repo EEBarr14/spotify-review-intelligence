@@ -1,0 +1,130 @@
+{
+  "comparisons": [
+    {
+      "enrich_intent": "complaint",
+      "enrich_severity": 4,
+      "enrich_topic": "access",
+      "intent_agree": true,
+      "review_id": "32fb340f-4f9f-4551-8dae-755221e58d6a",
+      "severity_delta": 0,
+      "topic_agree": false,
+      "verify_intent": "complaint",
+      "verify_severity": 4,
+      "verify_topic": "billing"
+    },
+    {
+      "enrich_intent": "praise",
+      "enrich_severity": 1,
+      "enrich_topic": "other",
+      "intent_agree": true,
+      "review_id": "9d851b7f-a738-449b-a841-de8076f13276",
+      "severity_delta": 0,
+      "topic_agree": true,
+      "verify_intent": "praise",
+      "verify_severity": 1,
+      "verify_topic": "other"
+    },
+    {
+      "enrich_intent": "complaint",
+      "enrich_severity": 2,
+      "enrich_topic": "other",
+      "intent_agree": false,
+      "review_id": "9e3a706c-f502-4664-a23f-33f3480eca64",
+      "severity_delta": -1,
+      "topic_agree": true,
+      "verify_intent": "unclear",
+      "verify_severity": 1,
+      "verify_topic": "other"
+    },
+    {
+      "enrich_intent": "complaint",
+      "enrich_severity": 2,
+      "enrich_topic": "usability",
+      "intent_agree": true,
+      "review_id": "89a8e180-7846-4421-a2b6-fa7787e9d0d2",
+      "severity_delta": 1,
+      "topic_agree": false,
+      "verify_intent": "complaint",
+      "verify_severity": 3,
+      "verify_topic": "billing"
+    },
+    {
+      "enrich_intent": "praise",
+      "enrich_severity": 1,
+      "enrich_topic": "other",
+      "intent_agree": true,
+      "review_id": "4aee0d75-6901-426e-b0f7-11d042ccc73e",
+      "severity_delta": 0,
+      "topic_agree": true,
+      "verify_intent": "praise",
+      "verify_severity": 1,
+      "verify_topic": "other"
+    },
+    {
+      "enrich_intent": "complaint",
+      "enrich_severity": 2,
+      "enrich_topic": "catalog",
+      "intent_agree": true,
+      "review_id": "0658feaa-5bec-416e-b6b0-3de2a4c14580",
+      "severity_delta": 0,
+      "topic_agree": true,
+      "verify_intent": "complaint",
+      "verify_severity": 2,
+      "verify_topic": "catalog"
+    },
+    {
+      "enrich_intent": "praise",
+      "enrich_severity": 1,
+      "enrich_topic": "other",
+      "intent_agree": true,
+      "review_id": "23de7958-ccb0-4356-bc12-094935e6857d",
+      "severity_delta": 0,
+      "topic_agree": true,
+      "verify_intent": "praise",
+      "verify_severity": 1,
+      "verify_topic": "other"
+    },
+    {
+      "enrich_intent": "unclear",
+      "enrich_severity": 1,
+      "enrich_topic": "other",
+      "intent_agree": false,
+      "review_id": "67b21b33-e6b9-4d1a-b874-86bc182b9ada",
+      "severity_delta": 0,
+      "topic_agree": true,
+      "verify_intent": "cancellation",
+      "verify_severity": 1,
+      "verify_topic": "other"
+    },
+    {
+      "enrich_intent": "praise",
+      "enrich_severity": 1,
+      "enrich_topic": "other",
+      "intent_agree": true,
+      "review_id": "5d4d3f47-4b3c-4be4-8f11-6cca41d27068",
+      "severity_delta": 0,
+      "topic_agree": true,
+      "verify_intent": "praise",
+      "verify_severity": 1,
+      "verify_topic": "other"
+    },
+    {
+      "enrich_intent": "praise",
+      "enrich_severity": 1,
+      "enrich_topic": "other",
+      "intent_agree": true,
+      "review_id": "aeee488a-2077-489d-8914-1e01d5f7672f",
+      "severity_delta": 0,
+      "topic_agree": true,
+      "verify_intent": "praise",
+      "verify_severity": 1,
+      "verify_topic": "other"
+    }
+  ],
+  "intent_agreement": 0.8,
+  "sample_method": "lowest sha256('verify-v1:' + review_id)",
+  "sample_size": 10,
+  "severity_exact_agreement": 0.8,
+  "severity_mae": 0.2,
+  "topic_agreement": 0.8
+}
