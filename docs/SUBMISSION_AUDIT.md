@@ -6,17 +6,16 @@ This audit compares the saved project with the revised assignment document and i
 
 The analysis pipeline, 100,000-review run, evaluation evidence, deterministic ranking, final memo, grading adapter, API, database schema, and dashboard are complete. The instructor checker reports `status: pass` for the declared representative 100,000-review scope. Sites version 2 is deployed at [Spotify Review Intelligence](https://spotify-review-intelligence.groovyfern6.chatgpt.site); its authenticated production API and all nine D1 tables were verified on October 12.
 
-Three submission requirements remain:
+Two submission requirements remain:
 
-1. Verify the public [GitHub repository](https://github.com/EEBarr14/spotify-review-intelligence) and its documentation links while signed out.
-2. Make the deployed Site accessible to the grader, either by changing it to public or adding the grader as an external visitor. It currently uses a one-user custom allowlist and requires ChatGPT sign-in.
-3. Add the short interruption/resume screen recording. The existing 26,640-before and 100,000-after snapshots and call log can be used to explain the demonstrated recovery; no paid rerun is needed merely to record that explanation.
+1. Make the deployed Site accessible to the grader, either by changing it to public or adding the grader as an external visitor. It currently uses a one-user custom allowlist and requires ChatGPT sign-in.
+2. Add the short interruption/resume screen recording. The existing 26,640-before and 100,000-after snapshots and call log can be used to explain the demonstrated recovery; no paid rerun is needed merely to record that explanation.
 
 ## Rubric audit
 
 | Item | Result | Evidence or remaining action |
 |---|---|---|
-| D1: code/setup/artifacts accessible | Published; signed-out check pending | Root README, `pyproject.toml`, pipeline CLI, dashboard README, and final grading folder are in the public [GitHub repository](https://github.com/EEBarr14/spotify-review-intelligence). |
+| D1: code/setup/artifacts accessible | Met | Root README, `pyproject.toml`, pipeline CLI, dashboard README, and final grading folder are in the public [GitHub repository](https://github.com/EEBarr14/spotify-review-intelligence). The repository and raw README returned HTTP `200` without authentication. |
 | D2: architecture/schema/provenance | Met | `docs/ARCHITECTURE.md`, source and sample checksums, label configuration, and original IDs/hashes are saved. |
 | D3: memo numbers trace correctly | Met | Claims, ranking, membership, memo, and the real-review trace agree. The checker passed. |
 | D4: recommendation/alternative/limitations | Met | Usability is primary; access is the alternative; sample bias, classification uncertainty, and lack of causal/revenue evidence are disclosed. |
@@ -57,7 +56,7 @@ Results and fixes:
 
 ## Final checks after publication
 
-- Confirm the GitHub repository and release/download links work in a signed-out browser.
+- The GitHub repository and raw README have been verified without authentication; recheck any final recording or release links after adding them.
 - After choosing grader access, confirm the live dashboard opens in that grader context. The authenticated production API and database contents have already been verified; recheck the evidence drill-down after the access change.
 - Compare the live completed count, spend, Golden accuracy, issue ranking, and recommendation with the saved grading files.
 - Scan staged files and Git history again before changing repository visibility.
