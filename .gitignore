@@ -16,4 +16,5 @@ state/*.sqlite3-wal
 **/*.sqlite3-shm
 **/*.sqlite3-wal
 outputs/
+recordings/
 Final Assignment - Spotify Reviews Dataset/spotify_reviews_18months.csv

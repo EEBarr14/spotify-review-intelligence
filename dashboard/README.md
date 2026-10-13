@@ -2,7 +2,7 @@
 
 This is the deployable dashboard for the 100,000-review Spotify analysis. Its lead recommendation is titled **The Business Question Comes First: Focus on Usability**. The interface reads from a server API; the API reads from a Cloudflare D1 database containing saved run metadata, aggregate metrics, ranked issues, recommendation claims, evaluation results, and traceable review evidence.
 
-Current status: the gated Jev run is complete. Sites version 2 is live at [Spotify Review Intelligence](https://spotify-review-intelligence.groovyfern6.chatgpt.site). The schema, API routes, evidence endpoint, atomic idempotent hosted seed, and responsive dashboard all pass lint and a production build. The deployed API returned the final 100,000-review metrics, and all nine production D1 tables were verified, including the recommendation, evaluation summary, and 24 traceable source-review records. The complete grading package remains outside the web deployment. Access currently requires ChatGPT sign-in with the single account on the custom allowlist; grader access must be added or the Site must be made public before submission.
+Current status: the gated Jev run is complete. The public Sites deployment is live at [Spotify Review Intelligence](https://spotify-review-intelligence.groovyfern6.chatgpt.site). The schema, API routes, evidence endpoint, atomic idempotent hosted seed, and responsive dashboard all pass lint and a production build. Anonymous checks returned HTTP `200` for the homepage, final-results API, and usability evidence endpoint. All nine production D1 tables were verified, including the recommendation, evaluation summary, and 24 traceable source-review records. The complete grading package remains outside the web deployment.
 
 Key routes:
 

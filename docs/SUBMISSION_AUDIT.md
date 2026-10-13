@@ -4,12 +4,7 @@ This audit compares the saved project with the revised assignment document and i
 
 ## Overall result
 
-The analysis pipeline, 100,000-review run, evaluation evidence, deterministic ranking, final memo, grading adapter, API, database schema, and dashboard are complete. The instructor checker reports `status: pass` for the declared representative 100,000-review scope. Sites version 2 is deployed at [Spotify Review Intelligence](https://spotify-review-intelligence.groovyfern6.chatgpt.site); its authenticated production API and all nine D1 tables were verified on October 12.
-
-Two submission requirements remain:
-
-1. Make the deployed Site accessible to the grader, either by changing it to public or adding the grader as an external visitor. It currently uses a one-user custom allowlist and requires ChatGPT sign-in.
-2. Add the short interruption/resume screen recording. The existing 26,640-before and 100,000-after snapshots and call log can be used to explain the demonstrated recovery; no paid rerun is needed merely to record that explanation.
+The analysis pipeline, 100,000-review run, evaluation evidence, deterministic ranking, final memo, grading adapter, API, database schema, dashboard, and interruption/resume walkthrough are complete. The instructor checker reports `status: pass` for the declared representative 100,000-review scope. The public [Spotify Review Intelligence](https://spotify-review-intelligence.groovyfern6.chatgpt.site) deployment, anonymous API and evidence access, and all nine D1 tables were verified on October 12. The 52-second silent captioned walkthrough presents the saved 26,640-before and 100,000-after checkpoints and call evidence without another paid run.
 
 ## Rubric audit
 
@@ -23,8 +18,8 @@ Two submission requirements remain:
 | T2: independent/system tests | Met with a modest verifier sample | A deterministic 10-review local verifier sample reports 80% topic, intent, and exact-severity agreement and 0.20 severity MAE. Planted errors are automated; v2 passed 5/5 adversarial cases. |
 | T3: cost/runtime calculator and controls | Met | Real Jev v2 cold/warm 100-review evidence, editable rates/usage, offline replay, hard caps, alerts, retries, cache, and resume controls are saved. |
 | W1: ingestion and classification coverage | Met for revised scope | All 660,622 source rows were profiled; 13 empty texts were quarantined; 100,000 representative nonempty IDs were classified; no selected rows remain pending. |
-| W2: runnable stages and resume | Evidence met; recording pending | Enrich, verify, group, rank, and memo roles have saved calls/artifacts. Snapshots show 26,640 → 100,000 completed IDs without duplicate classification. Add the recording. |
-| W3: ranking and deployed application | Met; grader access pending | Ranking is reproducible and the frontend/API/D1 application is deployed. The production API returned the final dashboard data and all nine D1 tables contain the expected bounded seed. Adjust or extend the current one-user allowlist before submission. |
+| W2: runnable stages and resume | Met | Enrich, verify, group, rank, and memo roles have saved calls/artifacts. Snapshots show 26,640 → 100,000 completed IDs without duplicate classification, and the captioned walkthrough presents that saved evidence. |
+| W3: ranking and deployed application | Met | Ranking is reproducible and the frontend/API/D1 application is publicly deployed. Anonymous requests returned the final dashboard data and database-backed usability evidence, and all nine D1 tables contain the expected bounded seed. |
 
 ## Security and privacy audit
 
@@ -56,8 +51,8 @@ Results and fixes:
 
 ## Final checks after publication
 
-- The GitHub repository and raw README have been verified without authentication; recheck any final recording or release links after adding them.
-- After choosing grader access, confirm the live dashboard opens in that grader context. The authenticated production API and database contents have already been verified; recheck the evidence drill-down after the access change.
+- Recheck the public walkthrough link without authentication after the final documentation commit is pushed.
+- The public dashboard homepage, API, and usability evidence drill-down have been verified without authentication; recheck them once more after any later deployment.
 - Compare the live completed count, spend, Golden accuracy, issue ranking, and recommendation with the saved grading files.
 - Scan staged files and Git history again before changing repository visibility.
-- Add the final GitHub URL, live dashboard URL, access instructions, and recording link to the root README.
+- The root README contains the GitHub URL, live dashboard URL, access information, and walkthrough link.
