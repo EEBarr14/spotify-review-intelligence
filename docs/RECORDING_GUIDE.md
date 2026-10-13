@@ -6,7 +6,7 @@ The finished video is generated directly from captioned project slides. It is no
 
 Nothing needs to be presented or recorded live. Do **not** press **Start Presentation**, **Share Screen**, or **Shift-Command-5**.
 
-1. Review the finished silent video: [`demo/spotify-resume-walkthrough.webm`](../demo/spotify-resume-walkthrough.webm).
+1. Review the finished silent video using its [direct public file link](https://github.com/EEBarr14/spotify-review-intelligence/raw/refs/heads/main/demo/spotify-resume-walkthrough.webm), or open the local `demo/spotify-resume-walkthrough.webm` copy.
 2. The repository copy is the viewer-accessible version; the same file can also be uploaded directly to the course submission system if requested.
 3. The root README links to the repository copy.
 
