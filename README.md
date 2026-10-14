@@ -54,7 +54,7 @@ The paid sequence was deliberately gated. Completion of setup or a smaller check
 
 ## Rubric and submission evidence
 
-The linked evidence below maps directly to the revised 4/3/3 rubric. “Complete” means the saved local artifact exists and has been checked; publication-dependent items remain explicitly pending.
+The linked evidence below maps directly to the revised 4/3/3 rubric. “Complete” means the published artifact exists, is linked below, and has been checked from a fresh public clone or anonymous browser session as applicable.
 
 The detailed release review is saved in [`docs/SUBMISSION_AUDIT.md`](docs/SUBMISSION_AUDIT.md).
 
@@ -64,12 +64,12 @@ The detailed release review is saved in [`docs/SUBMISSION_AUDIT.md`](docs/SUBMIS
 | D2 — architecture, schema, and provenance | Complete | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md), the fixed labels in [`Final Assignment - Spotify Reviews Dataset/GRADING_CONTRACT.md`](Final%20Assignment%20-%20Spotify%20Reviews%20Dataset/GRADING_CONTRACT.md), and the source/sample checksums above |
 | D3 — memo numbers linked to calculations and source evidence | Complete | [`memo.md`](grading/final-submission/memo.md), [`claims.csv`](grading/final-submission/claims.csv), [`ranking.csv`](grading/final-submission/ranking.csv), and [`docs/TRACE_EXAMPLE.md`](docs/TRACE_EXAMPLE.md) |
 | D4 — recommendation, alternative, and limitations | Complete | [`memo.md`](grading/final-submission/memo.md) identifies usability, access as the alternative, and three limitations |
-| T1 — 50 human labels and per-field error analysis | Complete | [`golden_50_to_label.csv`](Final%20Assignment%20-%20Spotify%20Reviews%20Dataset/golden_50_to_label.csv), [`state/jev_golden_50_evaluation.md`](state/jev_golden_50_evaluation.md), and the Golden-50 section below |
+| T1 — 50 human labels and per-field error analysis | Complete | All 50 completed human labels are in [`state/golden_50_human_labels.json`](state/golden_50_human_labels.json); per-field metrics and disagreements are in [`state/jev_golden_50_evaluation.md`](state/jev_golden_50_evaluation.md) and the Golden-50 section below. The original [`golden_50_to_label.csv`](Final%20Assignment%20-%20Spotify%20Reviews%20Dataset/golden_50_to_label.csv) remains the supplied blank template. |
 | T2 — independent verification and planted/injection tests | Complete, with disclosed sample size | The independent local verifier relabeled a deterministic 10-review sample without seeing Jev's answers: 80% topic agreement, 80% intent agreement, 80% exact-severity agreement, and severity MAE 0.20. See [`verification.json`](cost/jev-pilot-v2/cold/verification.json), [`tests/test_jev.py`](tests/test_jev.py), and the v2 5/5 adversarial result in [`state/jev_adversarial_evaluation_v2.json`](state/jev_adversarial_evaluation_v2.json). |
 | T3 — cold/warm calculator and retry/spend/recovery controls | Complete | [`cost/jev-pilot-v2/report.md`](cost/jev-pilot-v2/report.md), [`cost/jev-pilot-v2/README.md`](cost/jev-pilot-v2/README.md), [`docs/TEST_PROTOCOL.md`](docs/TEST_PROTOCOL.md), and the measured pilot below |
 | W1 — ingestion, coverage, and valid classifications | Complete for revised scope | Full-file ingestion profiles 660,622 rows and quarantines 13 empty texts; the representative run classifies 100,000 nonempty IDs. [`state/submission_check_final.json`](state/submission_check_final.json) reports `status: pass`. |
 | W2 — runnable bounded stages, saved handoffs, and resume | Complete | [`run_pipeline.py`](run_pipeline.py), [`checkpoint_before.json`](grading/final-submission/checkpoint_before.json), [`checkpoint_after.json`](grading/final-submission/checkpoint_after.json), and [`calls.jsonl`](grading/final-submission/calls.jsonl) show bounded calls and 26,640 → 100,000 completed IDs without relabeling saved work. The [captioned walkthrough](https://github.com/EEBarr14/spotify-review-intelligence/raw/refs/heads/main/demo/spotify-resume-walkthrough.webm) presents that saved evidence. |
-| W3 — reproducible ranking and deployed database-backed dashboard | Complete | [`ranking.csv`](grading/final-submission/ranking.csv), [`dashboard/`](dashboard/), and the public [Spotify Review Intelligence](https://spotify-review-intelligence.groovyfern6.chatgpt.site) application. The homepage, production API, evidence drill-down, and all nine D1 tables were verified. |
+| W3 — reproducible ranking and deployed database-backed dashboard | Complete | [`ranking.csv`](grading/final-submission/ranking.csv), [`dashboard/`](dashboard/), and the public [Spotify Review Intelligence](https://spotify-review-intelligence.groovyfern6.chatgpt.site) application. The homepage, production API, evidence drill-down, and all nine D1 tables were verified. The deployed database holds run metadata, aggregate metrics, rankings, recommendation and claim records, evaluation outputs, and a deliberately bounded 24-record traceable evidence set; the downloadable grading package preserves all 100,000 row-level results. |
 
 ### Offline verification commands
 
@@ -235,9 +235,9 @@ The completed 500-review checkpoint contained 479 distinct texts and required ab
 
 The local experiments remain useful for comparing model choices and explaining the decision to switch. See [cost/experiment_comparison.md](cost/experiment_comparison.md).
 
-## Scalable resumable runner
+## Earlier local scalable resumable runner
 
-The production runner stores validated predictions and real call logs in a SQLite database using WAL journaling and a full durability setting. Each successful batch is committed atomically. The 500, 10,000, and full inputs share the same database, so checkpoint work is reused by the full run.
+The original local runner stores validated predictions and real call logs in a SQLite database using WAL journaling and a full durability setting. Each successful batch is committed atomically. The 500, 10,000, and full inputs share the same database, so checkpoint work is reused by the full run. This implementation is retained as baseline and recovery evidence; the completed final Jev run and its 100,000-review results are documented above.
 
 Inspect progress without making model calls:
 
@@ -273,4 +273,4 @@ python3 run_pipeline.py export \
   --state state/pipeline.sqlite3 --out-dir grading
 ```
 
-The demonstrated resume snapshots contain 7,101 completed full-corpus IDs before resuming and 66,577 after completing additional work. The instructor's offline checker accepted IDs, hashes, schemas, exact-text cache provenance, resume evidence, and ranking arithmetic on the partial full export; its only remaining issue was unfinished classification.
+The final Jev resume snapshots contain 26,640 completed sample IDs [before the final resume](grading/final-submission/checkpoint_before.json) and all 100,000 [afterward](grading/final-submission/checkpoint_after.json). The public grading export [passes the instructor checker](state/submission_check_final.json) with 100% accounted and valid completion, 21,901 valid cache reuses, zero missing or unresolved records, and reproducible ranking arithmetic.
